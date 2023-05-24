@@ -19,7 +19,7 @@ public class bookedRooms {
 	private String checkOut;
 	private int noDays;
 	private int totPrice;
-	private Boolean isApproved;
+	private String isApproved;
 	
 	public bookedRooms() {
 		super();
@@ -27,7 +27,7 @@ public class bookedRooms {
 	}
 
 	public bookedRooms(int roomNo, String user, String roomType, String capacity, String checkIn, String checkOut,
-			int noDays, int totPrice, Boolean isApproved) {
+			int noDays, int totPrice, String isApproved) {
 		super();
 		this.roomNo = roomNo;
 		this.user = user;
@@ -88,11 +88,11 @@ public class bookedRooms {
 		this.totPrice = totPrice;
 	}
 
-	public Boolean getIsApproved() {
+	public String getIsApproved() {
 		return isApproved;
 	}
 
-	public void setIsApproved(Boolean isApproved) {
+	public void setIsApproved(String isApproved) {
 		this.isApproved = isApproved;
 	}
 

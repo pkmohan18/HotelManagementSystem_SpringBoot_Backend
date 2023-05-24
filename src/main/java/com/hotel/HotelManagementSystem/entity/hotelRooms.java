@@ -17,7 +17,7 @@ public class hotelRooms {
 	private String roomType;
 	private int capacity;
 	private int price;
-	private Boolean isAvailable;
+	private String isAvailable;
 	
 	public hotelRooms() {
 		super();
@@ -71,11 +71,11 @@ public class hotelRooms {
 		this.price = price;
 	}
 
-	public Boolean getIsAvailable() {
+	public String getIsAvailable() {
 		return isAvailable;
 	}
 
-	public void setIsAvailable(Boolean isAvailable) {
+	public void setIsAvailable(String isAvailable) {
 		this.isAvailable = isAvailable;
 	}
 
